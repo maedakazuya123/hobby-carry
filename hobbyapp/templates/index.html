@@ -1,0 +1,554 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ホビキャリ</title>
+<meta name="description" content=""/>
+<link rel="stylesheet" href="{% static 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+<script src="{% static 'js/index.js' %}"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <a href="#">趣味を見つけるサイト</a>
+      </div>
+      <div id="nav-wrapper" class="nav-wrapper">
+        <div class="hamburger" id="js-hamburger">
+          <span class="hamburger__line hamburger__line--1"></span>
+          <span class="hamburger__line hamburger__line--2"></span>
+          <span class="hamburger__line hamburger__line--3"></span>
+        </div>
+      <ul class="header-right">
+          <li><a href="#">施設情報</a></li>
+          <li><a href="#">サイト概要</a></li>
+          <li><a href="#">お問合せ</a></li>
+            <li>
+              <label for="label1">ページ内検索</label>
+              <input type="checkbox" id="label1" class="switch" />
+              <ul>
+              <li><a href="#jump">区民館</a></li>
+              <li><a href="#jump1">文化施設</a></li>
+              <li><a href="#jump2">地域施設</a></li>
+              <li><a href="#jump3">その他施設</a></li>
+              </ul>
+            </li>
+      </ul>
+      <div class="black-bg" id="js-black-bg"></div>
+      </div>
+    </div>
+  </header>
+    <div class="contant">
+        <div style="text-align: center ">
+          <h1>
+            <a href="index.html"><img src="{% static "images/logo.png"%}" alt""></a>
+          </h1>
+        </div>
+    </div>
+    <div class="contant1">
+          <h1>
+            <img src="{% static "images/topphoto.png"%}" alt""　></a>
+          </h1>
+          <div class="nav">
+            <a class="edogawa" href="#" width="200" height="50" >江戸川区</a>
+            <a class="koutou" href="#">江東区</a>
+          </div>
+    </div>
+
+<div class="main">
+<main>
+  <section>
+  <hr class="hr1"></hr>
+  <h2 class="kumin1"><a id="jump">区民館</a></h2>
+  
+  <div class="li1">
+    <li>
+      <img src="{% static "images/000.png"%}" alt="小松川区民館" width="250" height="200">
+      <h3>
+        小松川区民館
+      </h3>
+      <div class="btn-wrapper">
+        <a class="btn1" href="index.html"><span>施設・活動情報<span></a>
+      </div>
+    </li>
+  </div>
+  <div class="li1">
+    <li>
+      <img src="{% static "images/002.png"%}" alt="葛西区民館" width="250" height="200">
+      <h3>
+        葛西区民館
+      </h3>
+      <div class="btn-wrapper">
+        <a class="btn1" href="#"><span>施設・活動情報<span></a>
+      </div>
+    </li>
+  </div>
+  <div class="li1">
+    <li>
+      <img src="{% static "images/003.png"%}" alt="小岩区民館" width="250" height="200">
+      <h3>
+        小岩区民館
+      </h3>
+      <div class="btn-wrapper" >
+        <a class="btn1" href="#"><span>施設・活動情報<span></a>
+      </div>
+    </li>
+  </div>
+    <div class="li1">
+      <li>
+        <img src="{% static "images/004.png"%}" alt="東部区民館" width="250" height="200">
+        <h3>
+          東部区民館
+        </h3>
+        <div class="btn-wrapper" >
+          <a class="btn1" href="#"><span>施設・活動情報<span></a>
+        </div>
+      </li>
+    </div>
+    <div class="li1">
+      <li>
+        <img src="{% static "images/005.png"%}" alt="鹿骨区民館" width="250" height="200">
+        <h3>
+          鹿骨区民館
+        </h3>
+        <div class="btn-wrapper" >
+          <a class="btn1" href="#"><span>施設・活動情報<span></a>
+        </div>
+      </li>
+    </div>
+  </section>
+  <section>
+  <hr class="hr2"></hr>
+  <h2 class="kumin2"><a id="jump1">文化施設</a></h2>
+  <div class="li2">
+    <li>
+      <img src="{% static "images/000.png"%}" alt="タワーホール船堀" width="250" height="200">
+      <h3>
+        タワーホール船堀
+      </h3>
+      <div class="btn-wrapper2">
+        <a class="btn2" href="index.html"><span>施設・活動情報<span></a>
+      </div>
+    </li>
+  </div>
+  <div class="li2">
+    <li>
+      <img src="{% static "images/002.png"%}" alt="総合文化センター" width="250" height="200">
+      <h3>
+        総合文化センター
+      </h3>
+      <div class="btn-wrapper2">
+        <a class="btn2" href="#"><span>施設・活動情報<span></a>
+      </div>
+    </li>
+  </div>
+  <div class="li2">
+    <li>
+      <img src="{% static "images/003.png"%}" alt="GREENPALACE" width="250" height="200">
+      <h3>
+        GREEN PALACE
+      </h3>
+      <div class="btn-wrapper2" >
+        <a class="btn2" href="#"><span>施設・活動情報<span></a>
+      </div>
+    </li>
+  </div>
+    <div class="li2">
+      <li>
+        <img src="{% static "images/004.png"%}" alt="篠崎文化センター" width="250" height="200">
+        <h3>
+          篠崎文化センター
+        </h3>
+        <div class="btn-wrapper2" >
+          <a class="btn2" href="#"><span>施設・活動情報<span></a>
+        </div>
+      </li>
+    </div>
+    <div class="li2">
+      <li>
+        <img src="{% static "images/005.png"%}" alt="ひらい圓蔵亭" width="250" height="200">
+        <h3>
+          ひらい圓蔵亭
+        </h3>
+        <div class="btn-wrapper2" >
+          <a class="btn2" href="#"><span>施設・活動情報<span></a>
+        </div>
+      </li>
+    </div>
+  </section>
+  <section>
+    <hr class="hr3"></hr>
+    <h2 class="kumin3"><a id="jump2">地域施設</a></h2>
+    <h3 class="kubetu1">・中央地区</h3>
+    <div class="li3">
+      <li>
+        <img src="{% static "images/000.png"%}" alt="松江コミュニティ会館" width="250" height="200">
+        <h3>
+          松江コミュニティ会館
+        </h3>
+        <div class="btn-wrapper3">
+          <a class="btn3" href="index.html"><span>施設・活動情報<span></a>
+        </div>
+      </li>
+    </div>
+    <div class="li3">
+      <li>
+        <img src="{% static "images/002.png"%}" alt="コミュニティプラザ一之江" width="250" height="200">
+        <h3>
+          コミュニティプラザ一之江
+        </h3>
+        <div class="btn-wrapper3">
+          <a class="btn3" href="#"><span>施設・活動情報<span></a>
+        </div>
+      </li>
+    </div>
+    <div class="li3">
+      <li>
+        <img src="{% static "images/003.png"%}" alt="一之江コミュニティ会館" width="250" height="200">
+        <h3>
+          一之江コミュニティ会館
+        </h3>
+        <div class="btn-wrapper3" >
+          <a class="btn3" href="#"><span>施設・活動情報<span></a>
+        </div>
+      </li>
+    </div>
+      <div class="li3">
+        <li>
+          <img src="{% static "images/004.png"%}" alt="松江区民プラザ" width="250" height="200">
+          <h3>
+            松江区民プラザ
+          </h3>
+          <div class="btn-wrapper3" >
+            <a class="btn3" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li3">
+        <li>
+          <img src="{% static "images/005.png"%}" alt="松島コミュニティ会館" width="250" height="200">
+          <h3>
+            松島コミュニティ会館
+          </h3>
+          <div class="btn-wrapper3" >
+            <a class="btn3" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+    </section>
+    <section>
+      <h3 class="kubetu2">・小松川地区</h3>
+      <div class="li4">
+        <li>
+          <img src="{% static "images/000.png"%}" alt="小松川さくらホール" width="250" height="200">
+          <h3>
+            小松川さくらホール
+          </h3>
+          <div class="btn-wrapper4">
+            <a class="btn4" href="index.html"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li4">
+        <li>
+          <img src="{% static "images/002.png"%}" alt="平井コミュニティ会館" width="250" height="200">
+          <h3>
+            平井コミュニティ会館
+          </h3>
+          <div class="btn-wrapper4">
+            <a class="btn4" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li4">
+        <li>
+          <img src="{% static "images/003.png"%}" alt="中平井コミュニティ会館" width="250" height="200">
+          <h3>
+            中平井コミュニティ会館
+          </h3>
+          <div class="btn-wrapper4" >
+            <a class="btn4" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+    </section>
+    <section>
+      <h3 class="kubetu3">・葛西地区</h3>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/000.png"%}" alt="新川さくら会館" width="250" height="200">
+          <h3>
+            新川さくら会館
+          </h3>
+          <div class="btn-wrapper5">
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/002.png"%}" alt="二之江コミュニティ会館" width="250" height="200">
+          <h3>
+            二之江コミュニティ会館
+          </h3>
+          <div class="btn-wrapper5" >
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/003.png"%}" alt="北葛西コミュニティ会館" width="250" height="200">
+          <h3>
+            北葛西コミュニティ会館
+          </h3>
+          <div class="btn-wrapper5">
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/004.png"%}" alt="南葛西会館" width="250" height="200">
+          <h3>
+            南葛西会館
+          </h3>
+          <div class="btn-wrapper5" >
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/005.png"%}" alt="新田コミュニティ会館" width="250" height="200">
+          <h3>
+            新田コミュニティ会館
+          </h3>
+          <div class="btn-wrapper5">
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/006.png"%}" alt="清新町コミュニティ会館" width="250" height="200">
+          <h3>
+            清新町コミュニティ会館
+          </h3>
+          <div class="btn-wrapper5" >
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/007.png"%}" alt="臨海町コミュニティ会館" width="250" height="200">
+          <h3>
+            臨海町コミュニティ会館
+          </h3>
+          <div class="btn-wrapper5">
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/008.png"%}" alt="東葛西コミュニティ会館" width="250" height="200">
+          <h3>
+            東葛西コミュニティ会館
+          </h3>
+          <div class="btn-wrapper5" >
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/009.png"%}" alt="長島桑川コミュニティ会館" width="250" height="200">
+          <h3>
+            長島桑川コミュニティ会館
+          </h3>
+          <div class="btn-wrapper5">
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li5">
+        <li>
+          <img src="{% static "images/010.png"%}" alt="船堀コミュニティ会館" width="250" height="200">
+          <h3>
+            船堀コミュニティ会館
+          </h3>
+          <div class="btn-wrapper5" >
+            <a class="btn5" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+    </section>
+    <section>
+      <h3 class="kubetu4">・小岩地区</h3>
+      <div class="li6">
+        <li>
+          <img src="{% static "images/000.png"%}" alt="南小岩コミュニティ会館" width="250" height="200">
+          <h3>
+            南小岩コミュニティ会館
+          </h3>
+          <div class="btn-wrapper6">
+            <a class="btn6" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li6">
+        <li>
+          <img src="{% static "images/002.png"%}" alt="上一色コミュニティセンター" width="250" height="200">
+          <h3>
+            上一色コミュニティセンター
+          </h3>
+          <div class="btn-wrapper6" >
+            <a class="btn6" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li6">
+        <li>
+          <img src="{% static "images/003.png"%}" alt="小岩アーバンプラザ" width="250" height="200">
+          <h3>
+            小岩アーバンプラザ
+          </h3>
+          <div class="btn-wrapper6">
+            <a class="btn6" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li6">
+        <li>
+          <img src="{% static "images/004.png"%}" alt="西小岩コミュニティ会館" width="250" height="200">
+          <h3>
+            西小岩コミュニティ会館
+          </h3>
+          <div class="btn-wrapper6" >
+            <a class="btn6" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li6">
+        <li>
+          <img src="{% static "images/005.png"%}" alt="北小岩コミュニティ会館" width="250" height="200">
+          <h3>
+            北小岩コミュニティ会館
+          </h3>
+          <div class="btn-wrapper6" >
+            <a class="btn6" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+    </section>
+    <section>
+      <h3 class="kubetu5">・東部地区</h3>
+      <div class="li7">
+        <li>
+          <img src="{% static "images/000.png"%}" alt="東部フレンドホール" width="250" height="200">
+          <h3>
+            東部フレンドホール
+          </h3>
+          <div class="btn-wrapper7">
+            <a class="btn7" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li7">
+        <li>
+          <img src="{% static "images/002.png"%}" alt="瑞江コミュニティ会館" width="250" height="200">
+          <h3>
+            瑞江コミュニティ会館
+          </h3>
+          <div class="btn-wrapper7" >
+            <a class="btn7" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li7">
+        <li>
+          <img src="{% static "images/003.png"%}" alt="江戸川コミュニティ会館" width="250" height="200">
+          <h3>
+            江戸川コミュニティ会館
+          </h3>
+          <div class="btn-wrapper7" >
+            <a class="btn7" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+    </section>
+    <section>
+      <h3 class="kubetu6">・鹿骨地区</h3>
+      <div class="li8">
+        <li>
+          <img src="{% static "images/000.png"%}" alt="篠崎コミュニティ会館" width="250" height="200">
+          <h3>
+            篠崎コミュニティ会館
+          </h3>
+          <div class="btn-wrapper8" >
+            <a class="btn8" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li8">
+        <li>
+          <img src="{% static "images/002.png"%}" alt="篠崎コミュニティホール" width="250" height="200">
+          <h3>
+            篠崎コミュニティホール
+          </h3>
+          <div class="btn-wrapper8" >
+            <a class="btn8" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+    </section>
+    <section>
+      <hr class="hr4"></hr>
+      <h2 class="kumin4"><a id="jump3">その他施設</a></h2>
+      <div class="li9">
+        <li>
+          <img src="{% static "images/000.png"%}" alt="共育プラザ" width="250" height="200">
+          <h3>
+            共育プラザ
+          </h3>
+          <div class="btn-wrapper9" >
+            <a class="btn9" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+      <div class="li9">
+        <li>
+          <img src="{% static "images/002.png"%}" alt="こども未来館" width="250" height="200">
+          <h3>
+            こども未来館
+          </h3>
+          <div class="btn-wrapper9" >
+            <a class="btn9" href="#"><span>施設・活動情報<span></a>
+          </div>
+        </li>
+      </div>
+    </section>
+</main>
+
+<div class="footer"> 
+<footer> 
+        <hr class="hr">
+        </hr>
+          <ul class="nav1"> 
+            <li><a href="ご利用ガイド">ご利用ガイド</a></li> 
+            <li><a href="プライバシーポリシー">プライバシーポリシー</a></li> 
+            <li><a href="お問い合わせ">お問い合せ</a></li> 
+          </ul> 
+ </div> 
+ <div class="credit">
+    Copyright ホビキャリ. All Rights Reserved. 
+</div> 
+</footer> 
+</body>
+</html>
